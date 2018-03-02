@@ -1,0 +1,6 @@
+framework module Pods_PfMPokedex {
+  umbrella header "Pods-PfMPokedex-umbrella.h"
+
+  export *
+  module * { export * }
+}
