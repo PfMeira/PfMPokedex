@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A3260171204A044100FBC7A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3260170204A044100FBC7A2 /* AppDelegate.swift */; };
+		A3260171204A044100FBC7A2 /* PokedexAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3260170204A044100FBC7A2 /* PokedexAppDelegate.swift */; };
 		A3260173204A044100FBC7A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3260172204A044100FBC7A2 /* ViewController.swift */; };
 		A3260176204A044100FBC7A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3260174204A044100FBC7A2 /* Main.storyboard */; };
 		A3260178204A044100FBC7A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3260177204A044100FBC7A2 /* Assets.xcassets */; };
@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A326016D204A044100FBC7A2 /* PMPokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PMPokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3260170204A044100FBC7A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A326016D204A044100FBC7A2 /* PfMPokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PfMPokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3260170204A044100FBC7A2 /* PokedexAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexAppDelegate.swift; sourceTree = "<group>"; };
 		A3260172204A044100FBC7A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A3260175204A044100FBC7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3260177204A044100FBC7A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A326017A204A044100FBC7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A326017C204A044100FBC7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3260181204A044100FBC7A2 /* PMPokedexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PMPokedexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3260181204A044100FBC7A2 /* PfMPokedexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PfMPokedexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3260185204A044100FBC7A2 /* PMPokedexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMPokedexTests.swift; sourceTree = "<group>"; };
 		A3260187204A044100FBC7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A326018C204A044100FBC7A2 /* PMPokedexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PMPokedexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A326018C204A044100FBC7A2 /* PfMPokedexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PfMPokedexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3260190204A044100FBC7A2 /* PMPokedexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMPokedexUITests.swift; sourceTree = "<group>"; };
 		A3260192204A044100FBC7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,9 +77,9 @@
 		A3260164204A044100FBC7A2 = {
 			isa = PBXGroup;
 			children = (
-				A326016F204A044100FBC7A2 /* PMPokedex */,
-				A3260184204A044100FBC7A2 /* PMPokedexTests */,
-				A326018F204A044100FBC7A2 /* PMPokedexUITests */,
+				A326016F204A044100FBC7A2 /* PfMPokedex */,
+				A3260184204A044100FBC7A2 /* PfMPokedexTests */,
+				A326018F204A044100FBC7A2 /* PfMPokedexUITests */,
 				A326016E204A044100FBC7A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,50 +87,66 @@
 		A326016E204A044100FBC7A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A326016D204A044100FBC7A2 /* PMPokedex.app */,
-				A3260181204A044100FBC7A2 /* PMPokedexTests.xctest */,
-				A326018C204A044100FBC7A2 /* PMPokedexUITests.xctest */,
+				A326016D204A044100FBC7A2 /* PfMPokedex.app */,
+				A3260181204A044100FBC7A2 /* PfMPokedexTests.xctest */,
+				A326018C204A044100FBC7A2 /* PfMPokedexUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A326016F204A044100FBC7A2 /* PMPokedex */ = {
+		A326016F204A044100FBC7A2 /* PfMPokedex */ = {
 			isa = PBXGroup;
 			children = (
-				A3260170204A044100FBC7A2 /* AppDelegate.swift */,
+				A3260170204A044100FBC7A2 /* PokedexAppDelegate.swift */,
 				A3260172204A044100FBC7A2 /* ViewController.swift */,
-				A3260174204A044100FBC7A2 /* Main.storyboard */,
-				A3260177204A044100FBC7A2 /* Assets.xcassets */,
-				A3260179204A044100FBC7A2 /* LaunchScreen.storyboard */,
-				A326017C204A044100FBC7A2 /* Info.plist */,
+				A326019F204A09FD00FBC7A2 /* Storyboards */,
+				A326019E204A09D600FBC7A2 /* Resources */,
 			);
-			path = PMPokedex;
+			path = PfMPokedex;
 			sourceTree = "<group>";
 		};
-		A3260184204A044100FBC7A2 /* PMPokedexTests */ = {
+		A3260184204A044100FBC7A2 /* PfMPokedexTests */ = {
 			isa = PBXGroup;
 			children = (
 				A3260185204A044100FBC7A2 /* PMPokedexTests.swift */,
 				A3260187204A044100FBC7A2 /* Info.plist */,
 			);
-			path = PMPokedexTests;
+			path = PfMPokedexTests;
 			sourceTree = "<group>";
 		};
-		A326018F204A044100FBC7A2 /* PMPokedexUITests */ = {
+		A326018F204A044100FBC7A2 /* PfMPokedexUITests */ = {
 			isa = PBXGroup;
 			children = (
 				A3260190204A044100FBC7A2 /* PMPokedexUITests.swift */,
 				A3260192204A044100FBC7A2 /* Info.plist */,
 			);
-			path = PMPokedexUITests;
+			path = PfMPokedexUITests;
+			sourceTree = "<group>";
+		};
+		A326019E204A09D600FBC7A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A3260177204A044100FBC7A2 /* Assets.xcassets */,
+				A326017C204A044100FBC7A2 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A326019F204A09FD00FBC7A2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A3260174204A044100FBC7A2 /* Main.storyboard */,
+				A3260179204A044100FBC7A2 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A326016C204A044100FBC7A2 /* PMPokedex */ = {
+		A326016C204A044100FBC7A2 /* PfMPokedex */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3260195204A044100FBC7A2 /* Build configuration list for PBXNativeTarget "PMPokedex" */;
+			buildConfigurationList = A3260195204A044100FBC7A2 /* Build configuration list for PBXNativeTarget "PfMPokedex" */;
 			buildPhases = (
 				A3260169204A044100FBC7A2 /* Sources */,
 				A326016A204A044100FBC7A2 /* Frameworks */,
@@ -140,14 +156,14 @@
 			);
 			dependencies = (
 			);
-			name = PMPokedex;
+			name = PfMPokedex;
 			productName = PMPokedex;
-			productReference = A326016D204A044100FBC7A2 /* PMPokedex.app */;
+			productReference = A326016D204A044100FBC7A2 /* PfMPokedex.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A3260180204A044100FBC7A2 /* PMPokedexTests */ = {
+		A3260180204A044100FBC7A2 /* PfMPokedexTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3260198204A044100FBC7A2 /* Build configuration list for PBXNativeTarget "PMPokedexTests" */;
+			buildConfigurationList = A3260198204A044100FBC7A2 /* Build configuration list for PBXNativeTarget "PfMPokedexTests" */;
 			buildPhases = (
 				A326017D204A044100FBC7A2 /* Sources */,
 				A326017E204A044100FBC7A2 /* Frameworks */,
@@ -158,14 +174,14 @@
 			dependencies = (
 				A3260183204A044100FBC7A2 /* PBXTargetDependency */,
 			);
-			name = PMPokedexTests;
+			name = PfMPokedexTests;
 			productName = PMPokedexTests;
-			productReference = A3260181204A044100FBC7A2 /* PMPokedexTests.xctest */;
+			productReference = A3260181204A044100FBC7A2 /* PfMPokedexTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A326018B204A044100FBC7A2 /* PMPokedexUITests */ = {
+		A326018B204A044100FBC7A2 /* PfMPokedexUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A326019B204A044100FBC7A2 /* Build configuration list for PBXNativeTarget "PMPokedexUITests" */;
+			buildConfigurationList = A326019B204A044100FBC7A2 /* Build configuration list for PBXNativeTarget "PfMPokedexUITests" */;
 			buildPhases = (
 				A3260188204A044100FBC7A2 /* Sources */,
 				A3260189204A044100FBC7A2 /* Frameworks */,
@@ -176,9 +192,9 @@
 			dependencies = (
 				A326018E204A044100FBC7A2 /* PBXTargetDependency */,
 			);
-			name = PMPokedexUITests;
+			name = PfMPokedexUITests;
 			productName = PMPokedexUITests;
-			productReference = A326018C204A044100FBC7A2 /* PMPokedexUITests.xctest */;
+			productReference = A326018C204A044100FBC7A2 /* PfMPokedexUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A3260168204A044100FBC7A2 /* Build configuration list for PBXProject "PMPokedex" */;
+			buildConfigurationList = A3260168204A044100FBC7A2 /* Build configuration list for PBXProject "PfMPokedex" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +236,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A326016C204A044100FBC7A2 /* PMPokedex */,
-				A3260180204A044100FBC7A2 /* PMPokedexTests */,
-				A326018B204A044100FBC7A2 /* PMPokedexUITests */,
+				A326016C204A044100FBC7A2 /* PfMPokedex */,
+				A3260180204A044100FBC7A2 /* PfMPokedexTests */,
+				A326018B204A044100FBC7A2 /* PfMPokedexUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,7 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3260173204A044100FBC7A2 /* ViewController.swift in Sources */,
-				A3260171204A044100FBC7A2 /* AppDelegate.swift in Sources */,
+				A3260171204A044100FBC7A2 /* PokedexAppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +301,12 @@
 /* Begin PBXTargetDependency section */
 		A3260183204A044100FBC7A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A326016C204A044100FBC7A2 /* PMPokedex */;
+			target = A326016C204A044100FBC7A2 /* PfMPokedex */;
 			targetProxy = A3260182204A044100FBC7A2 /* PBXContainerItemProxy */;
 		};
 		A326018E204A044100FBC7A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A326016C204A044100FBC7A2 /* PMPokedex */;
+			target = A326016C204A044100FBC7A2 /* PfMPokedex */;
 			targetProxy = A326018D204A044100FBC7A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -428,7 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EMU87B2GL4;
-				INFOPLIST_FILE = PMPokedex/Info.plist;
+				INFOPLIST_FILE = PfMPokedex/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pfmeira.PMPokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,7 +459,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EMU87B2GL4;
-				INFOPLIST_FILE = PMPokedex/Info.plist;
+				INFOPLIST_FILE = PfMPokedex/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pfmeira.PMPokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -465,7 +481,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PMPokedex.app/PMPokedex";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PfMPokedex.app/PfMPokedex";
 			};
 			name = Debug;
 		};
@@ -482,7 +498,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PMPokedex.app/PMPokedex";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PfMPokedex.app/PfMPokedex";
 			};
 			name = Release;
 		};
@@ -521,7 +537,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A3260168204A044100FBC7A2 /* Build configuration list for PBXProject "PMPokedex" */ = {
+		A3260168204A044100FBC7A2 /* Build configuration list for PBXProject "PfMPokedex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3260193204A044100FBC7A2 /* Debug */,
@@ -530,7 +546,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3260195204A044100FBC7A2 /* Build configuration list for PBXNativeTarget "PMPokedex" */ = {
+		A3260195204A044100FBC7A2 /* Build configuration list for PBXNativeTarget "PfMPokedex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3260196204A044100FBC7A2 /* Debug */,
@@ -539,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3260198204A044100FBC7A2 /* Build configuration list for PBXNativeTarget "PMPokedexTests" */ = {
+		A3260198204A044100FBC7A2 /* Build configuration list for PBXNativeTarget "PfMPokedexTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3260199204A044100FBC7A2 /* Debug */,
@@ -548,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A326019B204A044100FBC7A2 /* Build configuration list for PBXNativeTarget "PMPokedexUITests" */ = {
+		A326019B204A044100FBC7A2 /* Build configuration list for PBXNativeTarget "PfMPokedexUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A326019C204A044100FBC7A2 /* Debug */,
