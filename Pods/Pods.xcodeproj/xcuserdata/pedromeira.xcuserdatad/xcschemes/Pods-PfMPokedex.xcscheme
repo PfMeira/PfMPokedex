@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7116FAD8507875A922D2B8FBA6AA478A"
+               BlueprintIdentifier = "F7F17C03260F3F69C20AB46A5AEB9146"
                BuildableName = "Pods_PfMPokedex.framework"
                BlueprintName = "Pods-PfMPokedex"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7116FAD8507875A922D2B8FBA6AA478A"
+            BlueprintIdentifier = "F7F17C03260F3F69C20AB46A5AEB9146"
             BuildableName = "Pods_PfMPokedex.framework"
             BlueprintName = "Pods-PfMPokedex"
             ReferencedContainer = "container:Pods.xcodeproj">

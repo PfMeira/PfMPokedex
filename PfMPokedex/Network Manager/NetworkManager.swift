@@ -6,27 +6,45 @@
 //  Copyright © 2018 Pedro Meira. All rights reserved.
 //
 
-import Foundation
-import UIKit
 import Alamofire
 
-class NetworkManager: NSObject {
+protocol NetworkReachabilityDelegate: class {
+    func isReachability(status: NetworkReachabilityManager.NetworkReachabilityStatus)
+}
+
+class NetworkManager {
+    static let sharedNetworkManager = NetworkManager()
+    weak var delegateNetwork: NetworkReachabilityDelegate?
+    let reachabilityManager = Alamofire.NetworkReachabilityManager()
+
+    private init() {
+        isReachability()
+    }
     
-    let getPokemons = NSURL(string: "http://pokeapi.co/api/v2/pokemon")
+    func isReachability() {
+        reachabilityManager?.listener = { status in
+            self.delegateNetwork?.isReachability(status: status)
+        }
+        reachabilityManager?.startListening()
+    }
+    let getPokemons = "https://pokeapi.co/api/v2/pokemon/"
+    typealias FetchDetail = (Result<[String: AnyObject]>) -> Void
     
-    func fetchPokemons(idPokemon: String, completion: @escaping () -> Void) {
-        
-        Alamofire.request( "https://pokeapi.co/api/v2/pokemon\(idPokemon)", method: .get, encoding: JSONEncoding.default).responseJSON  { response in
-            switch response.result {
-            case .success:
-                // do something
-                break
+    func fetchPokemonDetail(idPokemon: String, completed: @escaping FetchDetail) {
+        Alamofire.request( "\(getPokemons)\(idPokemon)", method: .get, encoding: JSONEncoding.default).responseJSON { response in
+            let result = response.result
+            switch result {
+            case .success(let details):
+                guard let detail = details as? [String: AnyObject] else {
+                    let error = NSError()
+                    completed(.failure(error))
+                    return
+                }
+                completed(.success(detail))
             case .failure(let error):
-                // handle error
                 print("Alert view com net")
-                break
+                completed(.failure(error))
             }
         }
     }
 }
-

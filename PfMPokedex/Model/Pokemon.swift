@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct Pokemon {
+    let name: String
+    let identifier: String
+}
