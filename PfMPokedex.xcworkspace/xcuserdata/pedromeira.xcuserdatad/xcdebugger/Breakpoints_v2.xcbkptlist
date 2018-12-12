@@ -72,63 +72,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PfMPokedex/ViewController/CollectionViewController.swift"
-            timestampString = "542738727.902315"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "178"
-            endingLineNumber = "178">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PfMPokedex/ViewController/CollectionViewController.swift"
-            timestampString = "542738727.90271"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "178"
-            endingLineNumber = "178">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PfMPokedex/ViewController/CollectionViewController.swift"
-            timestampString = "542738727.903005"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "178"
-            endingLineNumber = "178">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PfMPokedex/ViewController/CollectionViewController.swift"
-            timestampString = "542738727.903293"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "178"
-            endingLineNumber = "178">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PfMPokedex/ViewController/CollectionViewController.swift"
-            timestampString = "542738727.903581"
+            timestampString = "546889720.5056649"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "64"
@@ -144,12 +88,220 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PfMPokedex/ViewController/CollectionViewController.swift"
-            timestampString = "542738727.9039021"
+            timestampString = "546889720.506125"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "68"
             endingLineNumber = "68"
             landmarkName = "activityIndicator(status:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PfMPokedex/ViewController/CollectionViewController.swift"
+            timestampString = "546889720.506452"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "isReachability(status:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PfMPokedex/ViewController/CollectionViewController.swift"
+            timestampString = "546889720.506776"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
+            landmarkName = "isReachability(status:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PfMPokedex/Network Manager/NetworkManager.swift"
+            timestampString = "546888864.422923"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "NetworkManager"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PfMPokedex.NetworkManager.deinit"
+                  moduleName = "PfMPokedex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromeira/Documents/Projects/PfMPokedex/PfMPokedex/Network%20Manager/NetworkManager.swift"
+                  timestampString = "546889721.116424"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PfMPokedex.NetworkManager.__deallocating_deinit"
+                  moduleName = "PfMPokedex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromeira/Documents/Projects/PfMPokedex/PfMPokedex/Network%20Manager/NetworkManager.swift"
+                  timestampString = "546889721.122207"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PfMPokedex/Network Manager/NetworkManager.swift"
+            timestampString = "546888864.423548"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "isReachability()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PfMPokedex/Network Manager/NetworkManager.swift"
+            timestampString = "546888864.423965"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PfMPokedex.NetworkManager.__allocating_init() -&gt; PfMPokedex.NetworkManager"
+                  moduleName = "PfMPokedex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromeira/Documents/Projects/PfMPokedex/PfMPokedex/Network%20Manager/NetworkManager.swift"
+                  timestampString = "546889721.152122"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PfMPokedex.NetworkManager.(in _568C62ECE3BD34162162AAF62AB2B2FE).init() -&gt; PfMPokedex.NetworkManager"
+                  moduleName = "PfMPokedex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromeira/Documents/Projects/PfMPokedex/PfMPokedex/Network%20Manager/NetworkManager.swift"
+                  timestampString = "546889721.157097"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "37">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PfMPokedex/Network Manager/NetworkManager.swift"
+            timestampString = "546888864.424323"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "fetchPokemonDetail(idPokemon:completed:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PfMPokedex.NetworkManager.fetchPokemonDetail(idPokemon: Swift.String, completed: (Alamofire.Result&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PfMPokedex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromeira/Documents/Projects/PfMPokedex/PfMPokedex/Network%20Manager/NetworkManager.swift"
+                  timestampString = "546889721.169606"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "37">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in PfMPokedex.NetworkManager.fetchPokemonDetail(idPokemon: Swift.String, completed: (Alamofire.Result&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PfMPokedex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedromeira/Documents/Projects/PfMPokedex/PfMPokedex/Network%20Manager/NetworkManager.swift"
+                  timestampString = "546889721.1795501"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PfMPokedex/ViewController/CollectionViewController.swift"
+            timestampString = "546889720.507157"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "isReachability(status:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
